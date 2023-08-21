@@ -1498,7 +1498,7 @@ a:focus {
     justify-content: center;
 }
 
-.footer .footer-menu p {
+.footer .footer-menu a p {
     color: #ffffff;
     font-size: 22px;
     font-weight: 600;
@@ -1507,7 +1507,7 @@ a:focus {
     border-right: 1px solid #ffffff;
 }
 
-.footer .footer-menu p:last-child {
+.footer .footer-menu a p:last-child {
     border: none;
 }
 
@@ -1583,8 +1583,8 @@ a:focus {
         font-size: 16px;
     }
 
-    .footer .footer-menu p {
-        border-right: none;
+    .footer .footer-menu a p {
+        border: none;
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
