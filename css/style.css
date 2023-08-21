@@ -1584,8 +1584,12 @@ a:focus {
     }
 
     .footer .footer-menu p {
+        
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+    }
+    .footer .footer-menu{
+        display:block;
     }
 }
