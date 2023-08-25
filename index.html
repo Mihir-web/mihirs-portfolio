@@ -26,7 +26,7 @@
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
         <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="navbar navbar-expand-lg bg-light navbar-light nav-sticky">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand" style="font-size:20px;">Mihir's Portfolio</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -56,7 +56,7 @@
         <div class="hero" id="home">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-12 col-12 col-lg-12 mb-5">
+                    <div class="col-sm-12 col-md-6 col-12 col-lg-12 mb-5">
                         <div class="hero-content">
                             <div class="hero-text">
                                 <p>I'm</p>
@@ -70,11 +70,11 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-12 col-md-6 d-none">
-                        <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
+                    <div class="col-sm-12 col-md-6 mt-5 mt-lg-0 mt-md-0">
+                        <div class="hero-image wow flipInY">
+                            <img src="img/hero_4.png" alt="Hero Image">
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,58 +82,112 @@
 
 
             <!-- About Start -->
-            <div class="about wow fadeInUp mt-5" data-wow-delay="0.1s" id="about">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="about-img">
-                                <img src="img/about.jpg" alt="Image">
+        <div class="about wow fadeInUp mt-0 mt-lg-5 mt-md-5" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <!-- <div class="col-lg-6 d-none d-lg-block d-md-block">
+                        <div class="about-img">
+                            <img src="img/about.jpg" alt="Image">
+                        </div>
+                    </div> -->
+                    
+                    <div class="col-lg-12">
+                        <div class="about-content row">
+                            <div class="col-12 col-lg-6 ">
+                            <div class="section-header text-left">
+                                <!-- <p class="bg-transparent">Get to know me!</p> -->
+                                <h4 class="col-12 text-light m-0 p-0">Get to know me!</h4>
+                                <!-- <h2>2 Years Experience</h2> -->
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Successfully completed e-commerce projects, society management project and some CMS projects as well such as blog, and news website
+                                </p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="about-content">
-                                <div class="section-header text-left">
-                                    <p>Learn About Me</p>
-                                    <h2>2 Years Experience</h2>
+                        <div class="col-12 col-lg-6">
+                            <div class="row m-0 p-0 d-flex justify-content-center">
+                                <h4 class="col-12 text-light">Skills</h4>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-1 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0s" style="--shadow:#ef652a47; --border:#ef652a;">
+                                    <img src="./img/languages/html.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">HTML</span>
                                 </div>
-                                <div class="about-text">
-                                    <p>
-                                        Successfully completed e-commerce projects, society management project and some CMS projects as well such as blog, and news website
-                                    </p>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-1 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.1s" style="--shadow:#264de447; --border:#264de4;">
+                                    <img src="./img/languages/css.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">CSS</span>
                                 </div>
-                                <div class="skills">
-                                    <div class="skill-name">
-                                        <p>Web Design</p><p>80%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>Web Development (Laravel)</p><p>85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>JS, JQuery</p><p>85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p>React</p><p>60%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.2s" style="--shadow:#7952b347; --border:#7952b3;">
+                                    <img src="./img/languages/bootstrap.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">Bootstrap</span>
                                 </div>
-                                <!-- <a class="btn" href="">Learn More</a> -->
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.3s" style="--shadow:#3dafb047; --border:#3dafb0;">
+                                    <img src="./img/languages/tailwind.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">Tailwind</span>
+                                </div>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.4s" style="--shadow:#e9ca3247; --border:#e9ca32;">
+                                    <img src="./img/languages/javascript.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">JavaScript</span>
+                                </div>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.5s">
+                                    <img src="./img/languages/jquery.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">Jquery</span>
+                                </div>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.6s" style="--shadow:#8993be47; --border:#8993be;">
+                                    <img src="./img/languages/php.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">PHP</span>
+                                </div>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.7s" style="--shadow:#ff2d2047; --border:#ff2d20;">
+                                    <img src="./img/languages/laravel.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">Laravel</span>
+                                </div>
+                                <div class="col-4 col-lg-2 col-md-2 mx-2 my-3 text-center p-2 languages wow flipInY" data-wow-duration="2s" data-wow-delay="0.8s" style="--shadow:#61dafb47; --border:#61dafb;">
+                                    <img src="./img/languages/react.svg" class="h-lg-75 w-lg-75 h-75 w-50 img-fluid"/>
+                                    <br>
+                                    <span class="language_name">React</span>
+                                </div>
                             </div>
+                        </div>
+                            <!-- <div class="skills">
+                                <div class="skill-name">
+                                    <p>Web Design</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Web Development (Laravel)</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>JS, JQuery</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>React</p><p>60%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div> -->
+                            <!-- <a class="btn" href="">Learn More</a> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- About End -->
+        </div>
+        <!-- About End -->
         
         
         <!-- Service Start -->
