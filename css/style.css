@@ -255,7 +255,7 @@ a:focus {
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media (max-width: 575.98px) { 
+@media (min-width: 575.98px) { 
     .first_section{
         display: flex;
         flex-direction:column-reverse;
