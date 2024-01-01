@@ -1665,7 +1665,7 @@ a:focus {
     --n:10;   /* number of item */
     --d:12s; /* duration */
   position: absolute;
-  right:30%;
+  right:33%;
   top:-50px;
   z-index: -100;
     width: 200px;
