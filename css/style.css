@@ -262,10 +262,12 @@ a:focus {
     }
     .first_section .hero-image img{
         height: 90%;
-        width:90%;
-        border-radius: 100% !important;
-        box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.244);
-        background-color:whitesmoke;
+    width:90%;
+    overflow: hidden;
+    margin-left: 70px !important;
+    border-radius: 100% !important;
+    box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.244);
+    background-color:whitesmoke;
     }
     #container{
         display: none !important;
