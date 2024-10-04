@@ -1706,3 +1706,4 @@ a:focus {
   .item:nth-child(8) {animation-delay:calc(-7*var(--d)/var(--n))}
   .item:nth-child(9) {animation-delay:calc(-8*var(--d)/var(--n))}
   .item:nth-child(10) {animation-delay:calc(-9*var(--d)/var(--n))}
+  .item:nth-child(11) {animation-delay:calc(-10*var(--d)/var(--n))}
