@@ -353,7 +353,7 @@ a:focus {
 
 .animated-star{
     display: inline-block; 
-    animation: rotatestart 2s linear infinite;
+    animation: rotatestart 1.5s linear infinite;
 }
 @keyframes rotatestart {
     0% {
