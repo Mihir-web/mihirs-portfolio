@@ -153,7 +153,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     font-size: 45px;
-    line-height: 0px;
+    /* line-height: 0px; */
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
